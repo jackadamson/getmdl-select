@@ -1,10 +1,10 @@
 {
-  "name": "getmdl-select",
-  "version": "2.0.1",
-  "description": "select for material-design-lite",
+  "name": "mdl-select",
+  "version": "2.0.2",
+  "description": "A branch of getmdl-select for material-design-lite",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CreativeIT/getmdl-select.git"
+    "url": "git+https://github.com/jackadamson/getmdl-select.git"
   },
   "keywords": [
     "material",
@@ -15,10 +15,13 @@
     "dropdown",
     "getmdl-dropdown"
   ],
-  "author": "CreativeIT",
-  "homepage": "https://github.com/CreativeIT/getmdl-select#readme",
+  "files": [
+    "getmdl-select.min.js",
+    "getmdl-select.min.css"
+  ],
+  "author": "MrFluffyBunny",
+  "homepage": "https://github.com/jackadamson/getmdl-select#readme",
   "devDependencies": {
-    "bower": "1.5.2",
     "gulp": "3.9.0",
     "gulp-rename": "1.2.2",
     "gulp-sass": "2.0.4",
@@ -27,6 +30,7 @@
     "gulp-babel": "5.3.0"
   },
   "dependencies": {
+    "bower-away": "^1.1.2",
     "material-design-lite": "1.1.3"
   },
   "license": "MIT"
