@@ -19,6 +19,7 @@
     "getmdl-select.min.js",
     "getmdl-select.min.css"
   ],
+  "main": "getmdl-select.min.js",
   "author": "MrFluffyBunny",
   "homepage": "https://github.com/jackadamson/getmdl-select#readme",
   "devDependencies": {
